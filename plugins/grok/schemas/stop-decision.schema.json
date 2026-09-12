@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "decision",
+    "reason"
+  ],
+  "properties": {
+    "decision": {
+      "type": "string",
+      "enum": [
+        "ALLOW",
+        "BLOCK"
+      ]
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 30,
+      "description": "For ALLOW, one or two sentences naming what was examined. For BLOCK, every defect found -- one short clause each, separated by semicolons -- each saying what is wrong and where. Not a placeholder or a restatement of the decision."
+    }
+  }
+}

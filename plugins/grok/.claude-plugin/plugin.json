@@ -1,0 +1,8 @@
+{
+  "name": "grok",
+  "version": "4.0.0",
+  "description": "Use Grok from Claude Code to review code or delegate tasks.",
+  "author": {
+    "name": "krushit"
+  }
+}

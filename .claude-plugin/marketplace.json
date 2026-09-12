@@ -1,0 +1,21 @@
+{
+  "name": "grok-plugin-cc",
+  "owner": {
+    "name": "krushit"
+  },
+  "metadata": {
+    "description": "Use Grok from Claude Code to review code or delegate tasks.",
+    "version": "4.0.0"
+  },
+  "plugins": [
+    {
+      "name": "grok",
+      "description": "Use Grok from Claude Code to review code or delegate tasks.",
+      "version": "4.0.0",
+      "author": {
+        "name": "krushit"
+      },
+      "source": "./plugins/grok"
+    }
+  ]
+}
